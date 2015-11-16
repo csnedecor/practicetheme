@@ -118,7 +118,7 @@
           <p class="lead"><strong>Subscribe to our mailing list</strong> We'll send you something special as a thank you.</p>
         </div><!-- col -->
         <div class="col-sm-4">
-          <button class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="myModal">
+          <button class="btn btn-success btn-lg btn-block" data-toggle="modal" data-target="#myModal">
             Click here to subscribe
           </button>
         </div><!-- col -->
@@ -178,9 +178,8 @@
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+          <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             <h4 class="modal-title" id="myModalLabel"><i class="fa fa-envelope"></i> Subscribe to our mailing list</h4>
-          </button>
         </div><!-- modal-header -->
 
         <div class="modal-body">
@@ -194,7 +193,7 @@
             </div><!-- form-group -->
 
             <div class="form-group">
-              <label class="sr-only" for="subscribe-name">and your email</label>
+              <label class="sr-only" for="subscribe-email">and your email</label>
               <input type="text" class="form-control" id="subscribe-email" placeholder="and your email">
             </div><!-- form-group -->
 
@@ -203,7 +202,7 @@
 
           <hr>
 
-          <p><small>By providing your email, you consent to receiving occassional promotional emails &amp; newsletters. No spam. Just good stuff.  We respect your privacy &amp; you may unsubscribe at any time.</small></p>
+          <p><small>By providing your email, you consent to receiving occassional promotional emails &amp; newsletters. <bt>No spam. Just good stuff.  We respect your privacy &amp; you may unsubscribe at any time.</small></p>
 
         </div><!-- modal-body -->
       </div><!-- modal-content -->
@@ -214,6 +213,7 @@
 
   <!-- BOOTSTRAP CORE JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="assets/js/jquery-2.1.4.min.js"></script>
   <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
